@@ -13,7 +13,7 @@ export default function Index() {
     },
     {
       icon: "MapPin",
-      title: "20 км от МКАД",
+      title: "25 км от МКАД",
       description: "Отличная транспортная доступность"
     },
     {
@@ -62,6 +62,14 @@ export default function Index() {
     {
       src: "https://cdn.poehali.dev/files/eec61941-d343-4ab0-b2c7-092ba354af0e.jpeg",
       alt: "Природные просторы участка с лесным массивом"
+    },
+    {
+      src: "https://cdn.poehali.dev/files/5ddc2e84-8b11-484a-8f84-43cd8055f857.jpeg",
+      alt: "Живописный пруд с ивами и цветущими растениями"
+    },
+    {
+      src: "https://cdn.poehali.dev/files/7d8a18fa-3595-4177-9b4e-f3b0e86d3c76.jpeg",
+      alt: "Открытые поля участка с деревенским окружением"
     }
   ];
 
