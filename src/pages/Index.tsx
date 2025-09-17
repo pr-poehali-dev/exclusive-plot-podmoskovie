@@ -240,6 +240,27 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Reason for Sale */}
+      <section className="py-20 px-4 bg-luxury-light">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-luxury-dark mb-8">
+            Цель продажи
+          </h2>
+          <div className="bg-white p-8 rounded-2xl shadow-lg">
+            <div className="flex items-center justify-center mb-6">
+              <Icon name="Heart" size={48} className="text-gold" />
+            </div>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              Продажа в связи с изменением планов семьи
+            </p>
+            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+              Мы с сожалением расстаемся с этим уникальным участком из-за смены жизненных приоритетов. 
+              Надеемся, что новые владельцы смогут в полной мере оценить все преимущества этого особенного места.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-20 px-4 bg-luxury-dark text-white">
         <div className="max-w-4xl mx-auto text-center">
