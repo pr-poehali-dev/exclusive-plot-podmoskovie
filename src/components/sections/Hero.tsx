@@ -22,6 +22,12 @@ export default function Hero() {
         <Button 
           size="lg" 
           className="bg-gold hover:bg-gold/90 text-white font-semibold px-8 py-6 text-lg animate-fade-in"
+          onClick={() => {
+            const phoneNumber = '+79261234567';
+            const message = 'Здравствуйте! Интересует участок 1.65 га в Подмосковье. Можете сообщить цену и контакты?';
+            const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+          }}
         >
           Узнать цену и контакты
         </Button>
