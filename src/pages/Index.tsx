@@ -44,10 +44,6 @@ export default function Index() {
       alt: "Панорамный вид на участок"
     },
     {
-      src: "/img/c4bbfc03-7cb5-4b99-b2f4-e3c8f7e84aca.jpg", 
-      alt: "Река Рожайка"
-    },
-    {
       src: "/img/6ac2ea55-be59-4828-88d6-eb1d2bc7e528.jpg",
       alt: "Инфраструктура участка"
     },
