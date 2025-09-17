@@ -43,10 +43,7 @@ export default function Index() {
       src: "/img/19e3a874-81a8-49aa-be13-51ea812c74c3.jpg",
       alt: "Панорамный вид на участок"
     },
-    {
-      src: "/img/6ac2ea55-be59-4828-88d6-eb1d2bc7e528.jpg",
-      alt: "Инфраструктура участка"
-    },
+
     {
       src: "https://cdn.poehali.dev/files/bc137528-5fe0-4d74-b720-64f01a9a07a5.jpeg",
       alt: "Зеленые луга участка с естественной растительностью"
@@ -394,8 +391,8 @@ export default function Index() {
           
           <div className="mt-12">
             <p className="text-2xl font-semibold mb-2">Контактный телефон:</p>
-            <a href="tel:+7999123456" className="text-3xl font-bold text-gold hover:text-gold/80">
-              +7 (999) 123-45-67
+            <a href="tel:+79032001590" className="text-3xl font-bold text-gold hover:text-gold/80">
+              +7 (903) 200-15-90
             </a>
           </div>
         </div>
