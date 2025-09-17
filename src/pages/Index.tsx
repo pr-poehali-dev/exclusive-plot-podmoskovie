@@ -64,10 +64,6 @@ export default function Index() {
       alt: "Природные просторы участка с лесным массивом"
     },
     {
-      src: "https://cdn.poehali.dev/files/5ddc2e84-8b11-484a-8f84-43cd8055f857.jpeg",
-      alt: "Живописный пруд с ивами и цветущими растениями"
-    },
-    {
       src: "https://cdn.poehali.dev/files/7d8a18fa-3595-4177-9b4e-f3b0e86d3c76.jpeg",
       alt: "Открытые поля участка с деревенским окружением"
     }
