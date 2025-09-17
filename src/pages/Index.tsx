@@ -50,6 +50,18 @@ export default function Index() {
     {
       src: "/img/6ac2ea55-be59-4828-88d6-eb1d2bc7e528.jpg",
       alt: "Инфраструктура участка"
+    },
+    {
+      src: "https://cdn.poehali.dev/files/bc137528-5fe0-4d74-b720-64f01a9a07a5.jpeg",
+      alt: "Зеленые луга участка с естественной растительностью"
+    },
+    {
+      src: "https://cdn.poehali.dev/files/560e5b01-ee05-480b-a3f9-1913235d14af.jpeg",
+      alt: "Река Рожайка в окружении вековых деревьев"
+    },
+    {
+      src: "https://cdn.poehali.dev/files/eec61941-d343-4ab0-b2c7-092ba354af0e.jpeg",
+      alt: "Природные просторы участка с лесным массивом"
     }
   ];
 
