@@ -2,8 +2,28 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useState } from "react";
 
 export default function CallToAction() {
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    message: ''
+  });
+
+  const handleSubmit = () => {
+    const phoneNumber = '+79032001590';
+    const message = `Заявка с сайта:
+Имя: ${formData.name}
+Телефон: ${formData.phone}
+Email: ${formData.email}
+Сообщение: ${formData.message || 'Интересует участок 1.65 га в Подмосковье'}`;
+    
+    const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <>
       {/* Call to Action */}
@@ -26,20 +46,31 @@ export default function CallToAction() {
                 <Input 
                   placeholder="Ваше имя" 
                   className="h-12"
+                  value={formData.name}
+                  onChange={(e) => setFormData({...formData, name: e.target.value})}
                 />
                 <Input 
                   placeholder="Номер телефона" 
                   className="h-12"
+                  value={formData.phone}
+                  onChange={(e) => setFormData({...formData, phone: e.target.value})}
                 />
                 <Input 
                   placeholder="Email"
                   className="h-12"
+                  value={formData.email}
+                  onChange={(e) => setFormData({...formData, email: e.target.value})}
                 />
                 <Textarea 
                   placeholder="Сообщение (необязательно)"
                   rows={3}
+                  value={formData.message}
+                  onChange={(e) => setFormData({...formData, message: e.target.value})}
                 />
-                <Button className="w-full bg-gold hover:bg-gold/90 text-white h-12 text-lg">
+                <Button 
+                  className="w-full bg-gold hover:bg-gold/90 text-white h-12 text-lg"
+                  onClick={handleSubmit}
+                >
                   Отправить заявку
                 </Button>
               </div>
