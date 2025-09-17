@@ -63,6 +63,6 @@ export default function Location() {
           </div>
         </div>
       </section>
-    </section>
+    </>
   );
 }
