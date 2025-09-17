@@ -63,42 +63,6 @@ export default function Location() {
           </div>
         </div>
       </section>
-
-      {/* Exclusivity & Neighborhood */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-luxury-dark mb-8">
-            Окружение, которое говорит само за себя
-          </h2>
-          <div className="bg-luxury-light p-8 rounded-2xl max-w-4xl mx-auto">
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Участок расположен в уникальном месте с высочайшим уровнем безопасности и приватности
-            </p>
-            <div className="grid md:grid-cols-2 gap-8 text-left">
-              <div>
-                <h3 className="font-display text-xl font-semibold mb-4 text-gold">
-                  Престижное соседство
-                </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Резиденция главы государства в 500м</li>
-                  <li>• Представители крупного бизнеса</li>
-                  <li>• Собственник аэропорта Домодедово</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-display text-xl font-semibold mb-4 text-gold">
-                  Безопасность и престиж
-                </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Охраняемая территория</li>
-                  <li>• Максимальная приватность</li>
-                  <li>• Эксклюзивная локация</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
+    </section>
   );
 }
